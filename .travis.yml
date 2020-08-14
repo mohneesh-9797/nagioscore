@@ -151,7 +151,7 @@ matrix:
         - MATRIX_EVAL="CC=clang-6.0 && CXX=clang++-6.0"
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           packages:
@@ -170,7 +170,7 @@ matrix:
 
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           sources:
@@ -192,7 +192,7 @@ matrix:
 
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           sources:
@@ -214,7 +214,7 @@ matrix:
 
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           sources:
@@ -236,7 +236,7 @@ matrix:
 
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           sources:
@@ -258,7 +258,7 @@ matrix:
 
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           sources:
@@ -280,7 +280,7 @@ matrix:
 
     - os: linux
       arch: arm64
-      dist: trusty
+      dist: bionic
       addons:
         apt:
           sources:
